@@ -1,0 +1,139 @@
+header {
+  max-width: 1560px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../assets/home/desktop/image-hero.jpg);
+}
+header section {
+  height: 632px;
+}
+.heroSectionText {
+  width: 398px;
+  padding-top: 128px;
+}
+.heroSectionText span {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.12px;
+  letter-spacing: 10px;
+  text-align: left;
+  opacity: 49.64%;
+  color: var(--white);
+}
+.heroSectionText h1 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: var(--white);
+  margin: 24px 0px;
+}
+.heroSectionText p {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  opacity: 75%;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+.productAddSection {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 168px;
+}
+.zx9SpeakerAdd {
+  display: flex;
+  gap: 138px;
+  background-color: var(--brown);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.circlePattern {
+  position: absolute;
+  width: 944px;
+  height: 944px;
+  top: 1265px;
+  left: 16px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0.2px;
+  z-index: 1;
+}
+.zx9SpeakerAddImg {
+  width: 410.23px;
+  height: 493px;
+  padding-top: 96px;
+  margin-bottom: -16px;
+  margin-left: 127px;
+  z-index: 2;
+}
+.zx9SpeakerAdd__Text {
+  width: 349px;
+  margin-top: 133px;
+}
+.zx9SpeakerAdd__Text h2 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+.zx9SpeakerAdd__Text p {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+.zx7SpeakerAdd {
+  height: 320px;
+  z-index: 2;
+  border-radius: 8px;
+  background-image: url(../assets/home/desktop/image-speaker-zx7.jpg);
+}
+.zx7text {
+  margin: 101px 0px 0px 95px;
+}
+.zx7text h2 {
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38.25px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: var(--black);
+  margin-bottom: 32px;
+}
+.yx1EarphonesAdd {
+  display: flex;
+  gap: 30px;
+}
+.yx1EarphonesAdd img {
+  border-radius: 8px;
+}
+.zx1text h2 {
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38.25px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: var(--black);
+  margin-bottom: 32px;
+}
+.zx1text {
+  border-radius: 8px;
+  padding: 100px 196px 101px 95px;
+  background-color: var(--whiteF1);
+}
