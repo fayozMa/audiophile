@@ -75,6 +75,7 @@
   opacity: 50%;
   color: var(--black);
   transition: all ease 500ms;
+  z-index: 1;
 }
 .shopBtn:hover {
   color: var(--brown);
@@ -292,6 +293,7 @@ footer p {
   border-radius: 8px;
   background-color: var(--white);
   padding: 32px 32px;
+  z-index: 2;
 }
 .modal__cartInfo {
   display: flex;

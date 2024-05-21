@@ -20,9 +20,23 @@
                     <a href="./speakers.html">SPEAKERS</a>
                     <a href="./earphones.html">EARPHONES</a>
                 </div>
-                <a class="cart" href=""><img src="../assets/shared/desktop/icon-cart.svg" alt="cart logo"></a>
+                <button class="cart" id="cart" href=""><img src="../assets/shared/desktop/icon-cart.svg" alt="cart logo"></button>
             </nav>
             <h1>HEADPHONES</h1>
+            <div class="modal hidden" id="modal">
+                <div class="modal__cartInfo">
+                    <p>Cart()</p>
+                    <button>Remove all</button>
+                </div>
+                <ul class="modal__products"></ul>
+                <div class="modalBottom">
+                    <div class="modal__price">
+                        <p>TOTAL</p>
+                        <span></span>
+                    </div>
+                    <a class="seeProductFilledBtn checkoutBtn">CHECKOUT</a>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -102,5 +116,5 @@
             <span class="footerSpan">Copyright 2021. All Rights Reserved</span>
         </div>
     </footer>
-    <script src="../js/headphones.js"></script>
+    <script src="../js/app.js"></script>
 </body>
