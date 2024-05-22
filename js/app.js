@@ -18,10 +18,3 @@ document.addEventListener("keydown", (e) => {
 
 //product page
 const a = document.querySelector("a");
-fetch("http://localhost:3000/products")
-  .then((data) => {
-    return data.json();
-  })
-  .then((productFiles) => {
-    updateUI(productFiles);
-  });

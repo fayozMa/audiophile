@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/manrope-v15-latin-700.woff2") format("woff2");
-}
+} 
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -294,6 +294,7 @@ footer p {
   background-color: var(--white);
   padding: 32px 32px;
   z-index: 2;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .modal__cartInfo {
   display: flex;
@@ -349,7 +350,7 @@ footer p {
   text-align: center;
   color: var(--black);
 }
-.modalBottom{
+.modalBottom {
   width: 100%;
 }
 .checkoutBtn {
